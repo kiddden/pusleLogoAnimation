@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800819172895548A00ABC894 /* gif-light.gif in Resources */ = {isa = PBXBuildFile; fileRef = 800819152895548A00ABC894 /* gif-light.gif */; };
+		800819182895548A00ABC894 /* gif-dark.gif in Resources */ = {isa = PBXBuildFile; fileRef = 800819162895548A00ABC894 /* gif-dark.gif */; };
+		8008191A289554DF00ABC894 /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80081919289554DF00ABC894 /* PulseAnimation.swift */; };
 		8038C97428941C5100827F29 /* pulse_animationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038C97328941C5100827F29 /* pulse_animationApp.swift */; };
-		8038C97628941C5100827F29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038C97528941C5100827F29 /* ContentView.swift */; };
+		8038C97628941C5100827F29 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8038C97528941C5100827F29 /* AnimationView.swift */; };
 		8038C97828941C5400827F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8038C97728941C5400827F29 /* Assets.xcassets */; };
 		8038C97B28941C5400827F29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8038C97A28941C5400827F29 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		800819152895548A00ABC894 /* gif-light.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gif-light.gif"; sourceTree = "<group>"; };
+		800819162895548A00ABC894 /* gif-dark.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gif-dark.gif"; sourceTree = "<group>"; };
+		80081919289554DF00ABC894 /* PulseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
 		8038C97028941C5100827F29 /* pulse animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pulse animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8038C97328941C5100827F29 /* pulse_animationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pulse_animationApp.swift; sourceTree = "<group>"; };
-		8038C97528941C5100827F29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8038C97528941C5100827F29 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		8038C97728941C5400827F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8038C97A28941C5400827F29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		800819142895544B00ABC894 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				800819162895548A00ABC894 /* gif-dark.gif */,
+				800819152895548A00ABC894 /* gif-light.gif */,
+			);
+			path = Gifs;
+			sourceTree = "<group>";
+		};
 		8038C96728941C5100827F29 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +66,10 @@
 		8038C97228941C5100827F29 /* pulse animation */ = {
 			isa = PBXGroup;
 			children = (
+				800819142895544B00ABC894 /* Gifs */,
 				8038C97328941C5100827F29 /* pulse_animationApp.swift */,
-				8038C97528941C5100827F29 /* ContentView.swift */,
+				8038C97528941C5100827F29 /* AnimationView.swift */,
+				80081919289554DF00ABC894 /* PulseAnimation.swift */,
 				8038C97728941C5400827F29 /* Assets.xcassets */,
 				8038C97928941C5400827F29 /* Preview Content */,
 			);
@@ -126,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8038C97B28941C5400827F29 /* Preview Assets.xcassets in Resources */,
+				800819182895548A00ABC894 /* gif-dark.gif in Resources */,
 				8038C97828941C5400827F29 /* Assets.xcassets in Resources */,
+				800819172895548A00ABC894 /* gif-light.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8038C97628941C5100827F29 /* ContentView.swift in Sources */,
+				8008191A289554DF00ABC894 /* PulseAnimation.swift in Sources */,
+				8038C97628941C5100827F29 /* AnimationView.swift in Sources */,
 				8038C97428941C5100827F29 /* pulse_animationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
