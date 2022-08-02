@@ -19,7 +19,7 @@ struct AnimationView: View {
                 })
             }.tag(Tabs.startTab)
             
-            PulseAnimation(imageName: "heart.circle", imageSize: 152, animationDuration: 4)
+            PulseAnimation(imageName: "heart.circle", animationDuration: 4)
                 .tag(Tabs.animationTab)
         }
         .ignoresSafeArea()
